@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="invitemsg:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/invitemsg_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="invitemsg/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="invitemsg.war">
+        <element id="artifact" artifact-name="invitemsg:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

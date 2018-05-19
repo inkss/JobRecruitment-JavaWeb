@@ -1,0 +1,130 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="invitemsg:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/invitemsg_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="invitemsg" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-collections-2.1.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-dbcp.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-io-1.3.2.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-pool.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jtds-1.2.5.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jxl.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="antlr-2.7.6.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="aopalliance.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="asm-2.2.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="asm-commons-2.2.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="asm-util-2.2.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="aspectjlib.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="aspectjrt.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="aspectjweaver.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="backport-util-concurrent.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="bsh-2.0b4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="c3p0-0.9.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="cglib-nodep-2.1_3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commonj-twm.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-attributes-api.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-attributes-compiler.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-beanutils.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-codec.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-fileupload.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-httpclient.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-io.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-lang-2.4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-lang.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-logging-1.0.4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="commons-logging.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="concurrent-1.3.2.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="connector.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ehcache-1.2.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ejb3-persistence.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="freemarker-2.3.15.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="freemarker.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="groovy-1.5.5.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hessian-3.1.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hibernate-annotations.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hibernate-commons-annotations.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hibernate-entitymanager.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hibernate-validator.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="hibernate3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="iText-2.0.7.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ibatis-2.3.0.677.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jaas.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jacc-1_0-fr.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jamon-2.4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jasperreports-2.0.5.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="javassist.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jaxen-1.1-beta-7.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jboss-archive-browsing.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jboss-cache.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jboss-common.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jboss-jmx.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jboss-system.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jdbc2_0-stdext.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jdo2-api.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jgroups-2.2.8.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jmxremote.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jmxremote_optional.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jmxri.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jotm.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jruby.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="json-lib-2.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="jta.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="log4j-1.2.11.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="log4j-1.2.15.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="mail.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="mailapi.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ognl-2.7.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="ojdbc5.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="oscache-2.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="persistence.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="poi-3.0.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="portlet-api.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="proxool-0.8.3.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="quartz-all-1.6.0.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-agent.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-aop.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-beans.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-context-support.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-context.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-core.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-jdbc.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-jms.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-orm.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-tomcat-weaver.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-tx.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-web.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-webmvc-portlet.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-webmvc-struts.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring-webmvc.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="spring.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="struts.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="struts2-core-2.1.8.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="struts2-json-plugin-2.1.8.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="struts2-junit-plugin-2.1.8.1.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="velocity-1.5.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="velocity-tools-view-1.4.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="xapool.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="xerces-2.6.2.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="xml-apis.jar" module-name="invitemsg" />
+          <element id="library" level="module" name="xwork-core-2.1.6.jar" module-name="invitemsg" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="invitemsg/web/Web" />
+      <element id="javaee-facet-resources" facet="invitemsg/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

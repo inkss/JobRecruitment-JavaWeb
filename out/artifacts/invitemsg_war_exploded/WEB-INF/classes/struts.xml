@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN" "struts-2.1.7.dtd" >
+<struts>
+    <package name="default" extends="json-default">
+        <action name="invitemsg" class="control.SysAction">
+            <result name="byssysusercx.jsp">/admin/byssysusercx.jsp</result>
+            <result name="byssysuserxg.jsp">/admin/byssysuserxg.jsp</result>
+            <result name="cbqsysuserxg.jsp">/admin/cbqsysuserxg.jsp</result>
+            <result name="cbxsysuserxg.jsp">/admin/cbxsysuserxg.jsp</result>
+            <result name="center.jsp">/admin/center.jsp</result>
+            <result name="cffbz.jsp">/admin/cffbz.jsp</result>
+            <result name="ckjl.jsp">/admin/ckjl.jsp</result>
+            <result name="down.jsp">/admin/down.jsp</result>
+            <result name="empcx.jsp">/admin/empcx.jsp</result>
+            <result name="ffbz.jsp">/admin/ffbz.jsp</result>
+            <result name="fpasscx.jsp">/admin/fpasscx.jsp</result>
+            <result name="ggzdatadictj.jsp">/admin/ggzdatadictj.jsp</result>
+            <result name="ggzdatadicxg.jsp">/admin/ggzdatadicxg.jsp</result>
+            <result name="gywm.jsp">/admin/gywm.jsp</result>
+            <result name="jlxsysuserxg.jsp">/admin/jlxsysuserxg.jsp</result>
+            <result name="left.jsp">/admin/left.jsp</result>
+            <result name="main.jsp">/admin/main.jsp</result>
+            <result name="messagescx.jsp">/admin/messagescx.jsp</result>
+            <result name="messageshf.jsp">/admin/messageshf.jsp</result>
+            <result name="messagesxg.jsp">/admin/messagesxg.jsp</result>
+            <result name="pqqysysuserxg.jsp">/admin/pqqysysuserxg.jsp</result>
+            <result name="pusersxg.jsp">/admin/pusersxg.jsp</result>
+            <result name="qysysusercx.jsp">/admin/qysysusercx.jsp</result>
+            <result name="qysysusercxtj.jsp">/admin/qysysusercxtj.jsp</result>
+            <result name="qysysuserxg.jsp">/admin/qysysuserxg.jsp</result>
+            <result name="right.jsp">/admin/right.jsp</result>
+            <result name="sysusercx.jsp">/admin/sysusercx.jsp</result>
+            <result name="sysusertj.jsp">/admin/sysusertj.jsp</result>
+            <result name="sysuserxg.jsp">/admin/sysuserxg.jsp</result>
+            <result name="szxjlcx.jsp">/admin/szxjlcx.jsp</result>
+            <result name="top.jsp">/admin/top.jsp</result>
+            <result name="uppass.jsp">/admin/uppass.jsp</result>
+            <result name="wzgg.jsp">/admin/wzgg.jsp</result>
+            <result name="wzjj.jsp">/admin/wzjj.jsp</result>
+            <result name="xwhbnewscx.jsp">/admin/xwhbnewscx.jsp</result>
+            <result name="xwhbnewstj.jsp">/admin/xwhbnewstj.jsp</result>
+            <result name="xwhbnewsxg.jsp">/admin/xwhbnewsxg.jsp</result>
+            <result name="yqljcx.jsp">/admin/yqljcx.jsp</result>
+            <result name="yqljtj.jsp">/admin/yqljtj.jsp</result>
+            <result name="yqljxg.jsp">/admin/yqljxg.jsp</result>
+            <result name="zpinfocx.jsp">/admin/zpinfocx.jsp</result>
+            <result name="zpinfotj.jsp">/admin/zpinfotj.jsp</result>
+            <result name="zpinfoxg.jsp">/admin/zpinfoxg.jsp</result>
+            <result name="zxjlcx.jsp">/admin/zxjlcx.jsp</result>
+            <result name="zxjltj.jsp">/admin/zxjltj.jsp</result>
+        </action>
+    </package>
+
+</struts>
+
+
+

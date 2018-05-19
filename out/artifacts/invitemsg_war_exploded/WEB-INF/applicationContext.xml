@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+    <bean id="datasource"
+          class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName"
+                  value="com.mysql.jdbc.Driver">
+        </property>
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/invitemsg">
+        </property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+    <bean id="sessionfactory"
+          class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="dataSource">
+            <ref bean="datasource"/>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                    org.hibernate.dialect.MySQLDialect
+                </prop>
+            </props>
+        </property>
+        <property name="mappingResources">
+            <list>
+                <value>pojo/Messages.hbm.xml</value>
+                <value>pojo/Zdatadic.hbm.xml</value>
+                <value>pojo/Zpinfo.hbm.xml</value>
+                <value>pojo/Sysuser.hbm.xml</value>
+                <value>pojo/Fpass.hbm.xml</value>
+                <value>pojo/Yqlj.hbm.xml</value>
+                <value>pojo/Emp.hbm.xml</value>
+                <value>pojo/Zxjl.hbm.xml</value>
+                <value>pojo/Mixinfo.hbm.xml</value>
+                <value>pojo/Hbnews.hbm.xml</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="MessagesDAO" class="pojo.MessagesDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="ZdatadicDAO" class="pojo.ZdatadicDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="ZpinfoDAO" class="pojo.ZpinfoDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="SysuserDAO" class="pojo.SysuserDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="FpassDAO" class="pojo.FpassDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="YqljDAO" class="pojo.YqljDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="EmpDAO" class="pojo.EmpDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="ZxjlDAO" class="pojo.ZxjlDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="MixinfoDAO" class="pojo.MixinfoDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+    <bean id="HbnewsDAO" class="pojo.HbnewsDAO">
+        <property name="sessionFactory">
+            <ref bean="sessionfactory"/>
+        </property>
+    </bean>
+</beans>
