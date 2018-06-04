@@ -1,0 +1,182 @@
+BODY {
+	LINE-HEIGHT: 17px; BACKGROUND-REPEAT: repeat-y; BACKGROUND-POSITION: center 50%; COLOR: #333333; FONT-SIZE: 12px
+}
+A {
+	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+.black_txt {
+	LINE-HEIGHT: 24px; COLOR: #000000; FONT-SIZE: 13px
+}
+.bold_txt {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.bold_txt A:link {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.bold_txt A:visited {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.bold_txt A:hover {
+	COLOR: #99ff00; FONT-SIZE: 12px
+}
+.or_spot {
+	TEXT-ALIGN: center; COLOR: #fc7019; FONT-SIZE: 18px; MARGIN-RIGHT: 5px; text-vertical: middle
+}
+.red_txt {
+	COLOR: #990000; FONT-SIZE: 12px
+}
+.red_txt A:link {
+	COLOR: #990000; FONT-SIZE: 12px
+}
+.red_txt A:visited {
+	COLOR: #990000; FONT-SIZE: 12px
+}
+.red_txt A:hover {
+	COLOR: #009900; FONT-SIZE: 12px
+}
+.wit_txt {
+	COLOR: #ffffff
+}
+.header {
+	PADDING-BOTTOM: 1px; BACKGROUND: url(../images/tbg.jpg) repeat-x; HEIGHT: 30px
+}
+.hu_txt {
+	COLOR: #999999
+}
+.hu_txt A:link {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.hu_txt A:visited {
+	COLOR: #ffffff; FONT-SIZE: 12px
+}
+.hu_txt A:hover {
+	COLOR: #cc0000; FONT-SIZE: 12px
+}
+TD.altbg1 {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-LEFT: 8px; BORDER-RIGHT: #e5e5e5 1px solid
+}
+.altbg1 {
+	BACKGROUND: #f5fbff
+}
+TD.altbg2 {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-LEFT: 8px
+}
+.altbg2 {
+	BACKGROUND: #ffffff
+}
+TD.altbg3 {
+	BORDER-BOTTOM: #e5e5e5 1px solid; PADDING-LEFT: 8px; BORDER-RIGHT: #e5e5e5 1px solid
+}
+TD.altbg4 {
+	PADDING-LEFT: 8px; BORDER-RIGHT: #e5e5e5 1px solid
+}
+.bold {
+	COLOR: #333333; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.smalltxt {
+	FONT: 11px Arial, Tahoma
+}
+.dottedline {
+	BACKGROUND-IMAGE: url(../images/dottedline.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom
+}
+.array {
+	PADDING-LEFT: 15px
+}
+.l {
+	FLOAT: left; MARGIN-LEFT: 8px
+}
+.li {
+	PADDING-LEFT: 0px
+}
+.r {
+	FLOAT: right; MARGIN-RIGHT: 8px
+}
+.t {
+	MARGIN-TOP: 5px
+}
+#zxbg {
+	TEXT-ALIGN: center; WIDTH: 30px; BACKGROUND: url(../images/zxbg.jpg) no-repeat left center; HEIGHT: 90px
+}
+#testico {
+	LINE-HEIGHT: 24px; PADDING-LEFT: 25px; BACKGROUND: url(../images/testico.jpg) no-repeat left center
+}
+#btnbg {
+	BACKGROUND-IMAGE: url(../images/btnbg.jpg); BORDER-BOTTOM: #3689bc 1px solid; BORDER-LEFT: #3689bc 1px solid; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND-REPEAT: repeat-x; COLOR: #ffffff; BORDER-TOP: #3689bc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #3689bc 1px solid
+}
+#btnbg A {
+	COLOR: #ffffff
+}
+.css {
+	FONT: 12px/20px "宋体"; COLOR: #333333; TEXT-DECORATION: blink
+}
+.in10 {
+	LINE-HEIGHT: 14pt
+}
+.in40 {
+	LINE-HEIGHT: 12pt
+}
+.in80 {
+	LINE-HEIGHT: 22px
+}
+.in120 {
+	COLOR: #cc6600; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.in120 A:link {
+	COLOR: #cc6600; FONT-SIZE: 14px
+}
+.in120 A:visited {
+	COLOR: #cc6600; FONT-SIZE: 14px
+}
+.in120 A:hover {
+	COLOR: #cc0000; FONT-SIZE: 14px
+}
+.in200 {
+	WIDTH: 200px
+}
+.in300 {
+	WIDTH: 300px
+}
+.pinglun {
+	PADDING-LEFT: 10px; BACKGROUND: url(../images/tbg.jpg) repeat-x; HEIGHT: 25px; PADDING-TOP: 5px
+}
+.infocenter {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; COLOR: #666666; PADDING-TOP: 0px
+}
+.err-msg {
+	FONT-FAMILY: "宋体"; COLOR: #ff3300; FONT-SIZE: 9pt
+}
+.bj_red {
+	TEXT-ALIGN: center; MARGIN: 0px 2px; WIDTH: 8px; BACKGROUND: #ff7100; HEIGHT: 12px; COLOR: #fff
+}
+.scrollbar {
+	SCROLLBAR-ARROW-COLOR: #7ebeff; SCROLLBAR-FACE-COLOR: #f2f8ff; SCROLLBAR-HIGHLIGHT-COLOR: #bedeff; SCROLLBAR-SHADOW-COLOR: #bedeff; SCROLLBAR-TRACK-COLOR: #fff7f3
+}
+.selectgray {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #ffffff 1px solid; BACKGROUND-COLOR: #f4f4f4; COLOR: #003366; FONT-SIZE: 12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.selectButtonCss {
+	BORDER-BOTTOM: #93bee2 1px solid; BORDER-LEFT: #93bee2 1px solid; BACKGROUND-COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma", "宋体"; COLOR: #0066cc; FONT-SIZE: 9pt; BORDER-TOP: #93bee2 1px solid; CURSOR: hand; BORDER-RIGHT: #93bee2 1px solid
+}
+.MultiEditBox {
+	BORDER-BOTTOM: #b7b7b7 1px solid; BORDER-LEFT: #b7b7b7 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT-FAMILY: "Arial"; BACKGROUND: #f8f8f8; COLOR: #000000; FONT-SIZE: 9pt; BORDER-TOP: #b7b7b7 1px solid; CURSOR: text; BORDER-RIGHT: #b7b7b7 1px solid; PADDING-TOP: 1px
+}
+.input {
+	BORDER-BOTTOM: #0f5188 1px solid; BORDER-LEFT: #0f5188 1px solid; PADDING-BOTTOM: 0px; MARGIN: 1px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; FONT-FAMILY: "宋体"; BACKGROUND-POSITION: center center; HEIGHT: auto; COLOR: #003877; FONT-SIZE: 9pt; BORDER-TOP: #0f5188 1px solid; BORDER-RIGHT: #0f5188 1px solid; PADDING-TOP: 0px
+}
+.NoneInput {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #f6f6f6; WIDTH: 99%; BORDER-TOP-STYLE: none; HEIGHT: 99%; BORDER-LEFT-STYLE: none
+}
+.logintxt {
+	BORDER-BOTTOM: #c0c0c0 1px solid; BORDER-LEFT: #ffffff 0px solid; BACKGROUND-COLOR: #ffffff; FONT-SIZE: 9pt; BORDER-TOP: #ffffff 0px solid; BORDER-RIGHT: #ffffff 0px solid
+}
+.smallbutton {
+	BORDER-BOTTOM: #7b9ebd 1px solid; FILTER: progid : DXImageTransform . Microsoft .
+		Gradient(GradientType = 0, StartColorStr = #ffffff, EndColorStr =
+		#cecfde); BORDER-LEFT: #7b9ebd 1px solid; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: black; FONT-SIZE: 12px; BORDER-TOP: #7b9ebd 1px solid; CURSOR: hand; BORDER-RIGHT: #7b9ebd 1px solid; PADDING-TOP: 2px
+}

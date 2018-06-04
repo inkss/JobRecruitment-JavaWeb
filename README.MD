@@ -12,4 +12,14 @@
 
 ### 附录
 
-有关编码：在 Win7 虚拟机上出现了数据库编码（非 utf-8）问题。此处予以记录。
+* 有关编码：在 Win7 虚拟机上出现了数据库编码（非 utf-8）问题。此处予以记录。
+
+* 有关演示：
+
+  * 项目编译出的文件已经一并上传。
+  
+  * 使用 SQLFILE.sql 创建相应数据库。
+  
+  * 复制 invitemsg（位于 ~/out/artifacts/invitemsg） 目录 到 Tomcat 的 webapps 目录中。
+  
+  * 启动服务器，访问：http://http://localhost:8080/invitemsg

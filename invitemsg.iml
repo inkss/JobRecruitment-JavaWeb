@@ -23,9 +23,14 @@
         <webroots>
           <root url="file://$MODULE_DIR$/WebRoot" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
+          <fileset id="s2fileset" name="My Fileset " removed="false">
+            <file>jar://$MODULE_DIR$/WebRoot/WEB-INF/lib/struts2-core-2.1.8.1.jar!/struts-default.xml</file>
+            <file>jar://$MODULE_DIR$/WebRoot/WEB-INF/lib/struts2-json-plugin-2.1.8.1.jar!/struts-plugin.xml</file>
+          </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
       </facet>

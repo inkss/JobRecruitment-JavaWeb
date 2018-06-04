@@ -4,7 +4,7 @@
     <root id="root">
       <element id="javaee-facet-resources" facet="invitemsg/javaeeApplication/javaEEApplication" />
       <element id="directory" name="invitemsg.war">
-        <element id="artifact" artifact-name="invitemsg:war exploded" />
+        <element id="artifact" artifact-name="invitemsg" />
       </element>
     </root>
   </artifact>

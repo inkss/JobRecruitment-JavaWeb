@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="invitemsg">
+    <output-path>$PROJECT_DIR$/out/artifacts/invitemsg</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="invitemsg" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="invitemsg/web/Web" />
+      <element id="javaee-facet-resources" facet="invitemsg/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
