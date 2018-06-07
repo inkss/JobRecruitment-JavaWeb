@@ -22,4 +22,4 @@
   
   * 复制 invitemsg（位于 ~/out/artifacts/invitemsg） 目录 到 Tomcat 的 webapps 目录中。
   
-  * 启动服务器，访问：http://http://localhost:8080/invitemsg
+  * 启动服务器，访问：http://localhost:8080/invitemsg
